@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="css/scontact.css">
+</head>
+<body>
+
+	<div id="main">
+		<nav>
+
+			<a href="index.html"><img src="pics/aa.png" width=75 height=75></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="series.html">Series</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="contact-title">
+			<h1><center>Contact Us</center></h1>
+		</div>
+		<div class="contact-form">
+			<form id="contact-form" method="POST" action="contactme.php">
+				<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+				<br>
+				 <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+				 <br>
+				 <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+				 	<br>
+				 	<input type="submit" class="form-control submit" value="SEND MAESSAGE">
+			</form>
+		</div>
+</body>
+</html>
