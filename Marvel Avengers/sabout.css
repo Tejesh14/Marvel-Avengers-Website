@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+#main{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: red;
+}
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 80px;
+	transition: 0.8s all;
+}
+nav ul li:hover{
+	background-color: black;
+}
+nav ul li a:hover{
+	color:red;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+}
+.contact-title
+{
+	margin-top: 100px;
+	color: red;
+	transition: all 4s ease-in-out;
+}
